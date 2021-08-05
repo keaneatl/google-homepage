@@ -1,0 +1,169 @@
+/* MEDIA QUERIES */
+
+
+
+/* HEADING */
+    #topnav {
+        list-style-type: none;
+        text-decoration: none;
+        background-color: transparent;
+        margin: 0.7em 1em 2.5em 0 ;
+        display: flex;
+        flex-direction: row;
+    justify-content: space-between;
+        align-items: center;
+        font-family: arial;
+
+        color: rgba(0,0,0,0.87);
+    }
+
+    #leftnav   {
+    margin: 0 0 0 1rem;
+    font-size: 0.9rem;
+    }
+
+    #rightnav   {
+        font-size: 0.8rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .navmenu    {
+        margin: 0 10px 0 30px;
+    }
+
+    .leftnavitems   {
+        display: inline;
+        margin: 0rem 0.2rem 0 0.7rem;
+    }
+
+    .rightnavitems {
+        margin: 0rem 0.2rem 0 0.9rem;
+    }
+
+    .leftnavitems:hover   {
+    text-decoration: underline;
+    cursor: pointer;
+
+    }
+
+    .rightnavitems:hover   {
+    text-decoration: underline;
+    cursor: pointer;
+
+    }
+
+    #login  {
+        padding: 0.7em;
+        background-color: #2b7de9;
+        border-radius: 0.4em;
+        color: white;
+        border: 0;
+        cursor: pointer;
+    }
+
+    #login:hover    {
+        text-decoration: none;
+    }
+
+/* MAIN SECTION */
+
+
+    main    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 15vh auto;
+    }
+
+    #googlelogo {
+        height: 7rem;
+        width: 20rem;
+    }
+
+    #searchinput  {
+        margin: 1.5rem 0 2rem 0;
+        width: 36.5rem;
+        height: 2.9rem;
+        border-radius: 5rem;
+        border: 0.01rem solid rgba(32,33,36,.09);
+    }
+
+    #searchinput:hover {
+        box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    }
+
+    .searchcont {
+        background-color: white;
+        position: relative;
+        display: inline-flex;
+    }
+
+    .searchinput    {
+        padding-right: 30px;
+        height: 100%;
+        overflow: hidden;
+        white-space: nowrap;
+        text-align: initial;
+        vertical-align: middle;
+    }
+
+    .searchico  {
+        background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5dfa6b8e3582a50006687d43%2F960x0.jpg%3Ffit%3Dscale&f=1&nofb=1");
+        padding-left: 50px;
+        background-size: 25px;
+        background-repeat: no-repeat;
+        background-position: 3% 45%
+    }
+
+    .searchinput:focus {
+        outline: transparent;
+    }
+
+    .searchbtn  {
+        padding: 0.6rem 1rem;
+        background-color: #f8f9fa;
+        border: 0;
+        font-family: ;
+        color: #202124;
+        font-size: 0.9rem;
+        border-radius: 0.3rem;
+        margin-left: 0.5rem;
+        border: 1px solid #f8f9fa;
+    }
+
+    .searchbtn:hover    {
+        box-shadow: 0 1px 1px rgba(0,0,0,.1);
+        border: 1px solid #dadce0;
+        cursor: pointer;
+    }
+
+/* FOOTER */
+    #footer      {
+        background-color: #f8f9fa;
+        color:rgba(0,0,0,.54);
+        padding: 1rem;
+        bottom: 0;
+        width: 100%;
+        position: fixed;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-size: 13px;
+        font-family: arial,sans-serif;
+    }
+
+    .rfitms, .lfitms   {
+        display: inline;
+        margin: 0 8px;
+    }
+
+    .rfitms:hover   {
+        text-decoration: underline;
+        cursor: pointer;
+        }
+
+    .lfitms:hover   {
+        text-decoration: underline;
+        cursor: pointer;
+            }
