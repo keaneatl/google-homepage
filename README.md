@@ -36,7 +36,7 @@
 2. How to add an icon inside a search bar
 
 ### Areas of improvement
-1. None, I feel like I nailed this one
+1. Webpage is not fully-responsive
 
 ## Disclaimer
 The resources I used, specifically the custom fonts installed, backgrounds, pictures, and the svg icons are only utilized for personal use, and not otherwise. Although for this project, I did the custom Google logo in Photoshop. 
